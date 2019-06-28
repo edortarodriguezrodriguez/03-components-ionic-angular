@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { AlertController } from "@ionic/angular";
-import { threadId } from "worker_threads";
+
 @Component({
   selector: "app-alert",
   templateUrl: "./alert.page.html",
