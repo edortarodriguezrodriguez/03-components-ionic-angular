@@ -8,9 +8,13 @@ import { ListItem } from '../../model/ListItem';
 })
 export class InicioPage implements OnInit {
 
-  componentes: ListItem[] = [new ListItem('american-football', 'Action Sheet', '/tab-sheet'),
-  new ListItem('appstore', 'Alert', '/alert'), new ListItem('beaker', 'Avatar', '/avatar'),
-  new ListItem('radio-button-on', 'Botones', '/botones')];
+  componentes: ListItem[] = [
+  new ListItem('american-football', 'Action Sheet', '/tab-sheet'),
+  new ListItem('appstore', 'Alert', '/alert'),
+  new ListItem('beaker', 'Avatar', '/avatar'),
+  new ListItem('radio-button-on', 'Botones', '/botones'),
+  new ListItem('card', 'Cards', '/card')
+];
 
   constructor() { }
 
