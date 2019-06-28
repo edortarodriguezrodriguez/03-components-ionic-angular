@@ -7,6 +7,7 @@ const routes: Routes = [
   { path: 'inicio', loadChildren: './pages/inicio/inicio.module#InicioPageModule' },
   { path: 'alert', loadChildren: './pages/alert/alert.module#AlertPageModule' },
   { path: 'tab-sheet', loadChildren: './pages/tab-sheet/tab-sheet.module#TabSheetPageModule' },  { path: 'avatar', loadChildren: './pages/avatar/avatar.module#AvatarPageModule' },
+  { path: 'botones', loadChildren: './pages/botones/botones.module#BotonesPageModule' },
 
 ];
 
