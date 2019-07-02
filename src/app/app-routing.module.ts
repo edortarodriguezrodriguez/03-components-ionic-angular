@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'tab-sheet', loadChildren: './pages/tab-sheet/tab-sheet.module#TabSheetPageModule' },  { path: 'avatar', loadChildren: './pages/avatar/avatar.module#AvatarPageModule' },
   { path: 'botones', loadChildren: './pages/botones/botones.module#BotonesPageModule' },
   { path: 'card', loadChildren: './pages/card/card.module#CardPageModule' },
+  { path: 'check', loadChildren: './pages/check/check.module#CheckPageModule' },
 
 ];
 
