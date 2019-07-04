@@ -14,7 +14,7 @@ export class InicioPage implements OnInit {
     new ListItem('beaker', 'Avatar', '/avatar'),
     new ListItem('radio-button-on', 'Botones', '/botones'),
     new ListItem('card', 'Cards', '/card'),
-    new ListItem('checkmark', 'check', '/check')
+    new ListItem('calendar', 'datetime', '/date-time'),
   ];
 
   constructor() { }
