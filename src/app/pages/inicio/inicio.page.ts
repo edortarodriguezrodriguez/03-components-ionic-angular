@@ -15,6 +15,7 @@ export class InicioPage implements OnInit {
     new ListItem('radio-button-on', 'Botones', '/botones'),
     new ListItem('card', 'Cards', '/card'),
     new ListItem('calendar', 'datetime', '/date-time'),
+    new ListItem('grid', 'grid', '/grid')
   ];
 
   constructor() { }
