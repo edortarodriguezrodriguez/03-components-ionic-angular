@@ -17,7 +17,9 @@ export class InicioPage implements OnInit {
     new ListItem('calendar', 'datetime', '/date-time'),
     new ListItem('grid', 'grid', '/grid'),
     new ListItem('Infinite', 'Infinite Scroll', '/infinite-scroll'),
-    new ListItem('hammer', 'Input Forms', '/input')
+    new ListItem('hammer', 'Input Forms', '/input'),
+    new ListItem('list', 'Listas Sliding', '/list')
+
   ];
 
   constructor() { }
