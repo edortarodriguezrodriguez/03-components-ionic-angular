@@ -1,7 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { DataService } from '../../services/data.service';
 import { Observable } from 'rxjs';
-import { userInfo } from 'os';
 import { IonList } from '@ionic/angular';
 
 @Component({

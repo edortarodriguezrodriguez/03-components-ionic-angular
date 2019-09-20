@@ -1,0 +1,25 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-title>List -Reorder</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+
+    <ion-reorder-group [disabled]="false" (ionItemReorder)="reOrder($event)">
+      <ion-item *ngFor="let character of characters">
+        <ion-label>{{character}}</ion-label>
+        <ion-reorder></ion-reorder>
+      </ion-item>
+    </ion-reorder-group>
+
+  </ion-list>
+
+  <ion-button (click)="showListOrder()" expand="full">List order log</ion-button>
+
+</ion-content>

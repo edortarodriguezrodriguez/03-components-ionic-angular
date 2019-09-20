@@ -18,8 +18,8 @@ export class InicioPage implements OnInit {
     new ListItem('grid', 'grid', '/grid'),
     new ListItem('Infinite', 'Infinite Scroll', '/infinite-scroll'),
     new ListItem('hammer', 'Input Forms', '/input'),
-    new ListItem('list', 'Listas Sliding', '/list')
-
+    new ListItem('list', 'Listas Sliding', '/list'),
+    new ListItem('reorder', 'List Reorder', '/list-reorder')
   ];
 
   constructor() { }
