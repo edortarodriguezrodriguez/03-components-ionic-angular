@@ -19,7 +19,8 @@ export class InicioPage implements OnInit {
     new ListItem('Infinite', 'Infinite Scroll', '/infinite-scroll'),
     new ListItem('hammer', 'Input Forms', '/input'),
     new ListItem('list', 'Listas Sliding', '/list'),
-    new ListItem('reorder', 'List Reorder', '/list-reorder')
+    new ListItem('reorder', 'List Reorder', '/list-reorder'),
+    new ListItem('refersh-cache', 'Loading', '/loading')
   ];
 
   constructor() { }
