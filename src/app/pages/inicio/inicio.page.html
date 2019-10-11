@@ -1,5 +1,12 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <!-- <ion-button (click)="toggleMenu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button> -->
+
+      <ion-menu-button color="primary" menu="first"></ion-menu-button>
+    </ion-buttons>
     <ion-title>inicio</ion-title>
   </ion-toolbar>
 </ion-header>
@@ -8,7 +15,7 @@
   <ion-button routerLink="/alert">
     Alertas
   </ion-button>
-  <ion-button routerLink="/tab-sheet"> 
+  <ion-button routerLink="/tab-sheet">
     Tab-sheet
   </ion-button>
   <ion-list>

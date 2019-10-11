@@ -20,8 +20,9 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes),ComponentsModule
+    RouterModule.forChild(routes),
+    ComponentsModule
   ],
   declarations: [AlertPage]
 })
-export class AlertPageModule {}
+export class AlertPageModule { }
