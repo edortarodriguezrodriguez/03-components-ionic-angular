@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "american-football",
+    "name": "Action Sheet",
+    "redirectTo": "/tab-sheet"
+  },
+  { "icon": "appstore", "name": "Alert", "redirectTo": "/alert" },
+  { "icon": "beaker", "name": "Avatar", "redirectTo": "/avatar" },
+  { "icon": "radio-button-on", "name": "Botones", "redirectTo": "/botones" },
+  { "icon": "card", "name": "Cards", "redirectTo": "/card" },
+  { "icon": "calendar", "name": "datetime", "redirectTo": "/date-time" },
+  { "icon": "grid", "name": "grid", "redirectTo": "/grid" },
+  {
+    "icon": "Infinite",
+    "name": "Infinite Scroll",
+    "redirectTo": "/infinite-scroll"
+  },
+  { "icon": "hammer", "name": "Input Forms", "redirectTo": "/input" },
+  { "icon": "list", "name": "Listas Sliding", "redirectTo": "/list" },
+  { "icon": "reorder", "name": "List Reorder", "redirectTo": "/list-reorder" },
+  { "icon": "refersh-cache", "name": "Loading", "redirectTo": "/loading" }
+]
