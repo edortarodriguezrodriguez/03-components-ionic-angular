@@ -19,5 +19,7 @@
   { "icon": "list", "name": "Listas Sliding", "redirectTo": "/list" },
   { "icon": "reorder", "name": "List Reorder", "redirectTo": "/list-reorder" },
   { "icon": "refresh-cache", "name": "Loading", "redirectTo": "/loading" },
-  { "icon": "phone-portrait", "name": "Modal", "redirectTo": "/modal" }
+  { "icon": "phone-portrait", "name": "Modal", "redirectTo": "/modal" },
+  { "icon": "tablet-portrait", "name": "Popover", "redirectTo": "/popover" }
+
 ]
