@@ -20,6 +20,8 @@
   { "icon": "reorder", "name": "List Reorder", "redirectTo": "/list-reorder" },
   { "icon": "refresh-cache", "name": "Loading", "redirectTo": "/loading" },
   { "icon": "phone-portrait", "name": "Modal", "redirectTo": "/modal" },
-  { "icon": "tablet-portrait", "name": "Popover", "redirectTo": "/popover" }
+  { "icon": "tablet-portrait", "name": "Popover", "redirectTo": "/popover" },
+  { "icon": "code-working", "name": "ProgressBar y Range", "redirectTo": "/progress-bar" }
+
 
 ]
