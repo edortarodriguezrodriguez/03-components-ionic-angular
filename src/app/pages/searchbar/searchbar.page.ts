@@ -9,6 +9,7 @@ import {DataService} from '../../services/data.service';
 export class SearchbarPage implements OnInit {
 
     albums: any[];
+    searchText = '';
 
     ngOnInit() {
         this.dataService.getAlbums().subscribe(albums => {
@@ -21,6 +22,6 @@ export class SearchbarPage implements OnInit {
     }
 
     search(event) {
-        console.log(event);
+        this.searchText = event.detail.value;
     }
 }
